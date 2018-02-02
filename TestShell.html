@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <!-- basic.html -->
+  <title>TestShell</title>
+  <meta charset = "UTF-8" />
+</head>
+<body>
+  <h1>Converting Degrees</h1>
+  <p>
+  	<script type="text/javascript">
+  		var alpha = prompt('Please Input the temperature in degrees Fahrenheit')
+  		var beta = alpha
+		var beta2 = (beta - 32)
+		var beta3 = (beta2 + 273.15)
+		var advice = new Array('looking to be a perfect day!', 'You might want to bring a jacket', 'It\s going to be a hot one')
+		
+  	</script>
+  	</p>
+  	<p>
+  	<script type="text/javascript">
+  		document.write(beta  , ' Is the degrees in Fahrenheit');
+  	</script>	
+  	</p>
+  	<p>
+  		<script type="text/javascript">
+  			document.write(beta2 ,' Is the degrees in Celsius');
+  		</script>
+
+  	</p>
+  	<p>
+  		<script type="text/javascript">
+  			document.write(beta3  ,' Is the degrees in Kelvin');
+  		</script>
+  	</p>	
+  	<p>	
+  		<script type="text/javascript">
+  			if(beta == 75) {
+  				document.write(advice[0]);
+  			} else if(beta < 75) {
+  				document.write(advice[1]);
+  			} else if(beta > 75) {
+  				document.write(advice[2]);
+  			}
+  		</script>
+
+  	</p>
+</body>
+
+</html>
